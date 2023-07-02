@@ -8,17 +8,17 @@ export class VdoPlayerComponent implements OnInit {
   videoItems = [
       {
         name: 'Video one',
-        src: 'https://youtu.be/MeR01dovpB0',
+        src: '../../assets/cannon.mp4',
         type: 'video/mp4'
       },
       {
         name: 'Video two',
-        src: 'http://static.videogular.com/assets/videos/big_buck_bunny_720p_h264.mov',
+        src: '../../assets/Shingeki.mp4',
         type: 'video/mp4'
       },
       {
         name: 'Video three',
-        src: 'http://static.videogular.com/assets/videos/elephants-dream.mp4',
+        src: '../../assets/OneSummerDay.mp4',
         type: 'video/mp4'
       }
     ];
