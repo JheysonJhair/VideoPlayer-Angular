@@ -17,9 +17,9 @@ body {
   background-size: cover;
   transition: .3s ease all;
   background: linear-gradient(to bottom,
-      rgba(15, 128, 203, 0.6),
-      rgba(22, 161, 154, 0.6),
-      rgba(38, 82, 110, 0.45)), url('https://i.pinimg.com/originals/db/0c/e4/db0ce461255cb21f91a2f70c139a38a5.jpg');
+      rgba(213, 226, 235, 0.755),
+      rgba(197, 204, 203, 0.6),
+      rgba(19, 82, 121, 0.69)), url('./assets/font.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

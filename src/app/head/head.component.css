@@ -1,11 +1,11 @@
 .contenedor-header {
-    background: rgba(45, 121, 117, 0.839);
+    background: #15272e;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
-    height: 80px;
+    height: 55px;
     position: fixed;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
   }
@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    height: 80px;
+    height: 55px;
   }
   
   .contenedor-header header .logo a {
@@ -39,7 +39,7 @@
   /* Logotipo*/
   .logo,
   .logo img {
-    height: 70px;
+    height: 44px;
   }
   
   /* Logotipo:hover*/
@@ -59,12 +59,12 @@
   .hireMe__button a {
     background-color: #1b6153cd;
     color: black;
-    padding: 1rem 1.5rem;
-    font-size: 20px;
+    padding: .6rem .8rem;
+    font-size: 16px;
     font-weight: 200;
     text-decoration: none;
     border-bottom: 3px solid transparent;
     color: #ffffff;
     border-width: 0;
-    border-radius: 10px;
+    border-radius: 4px;
   }

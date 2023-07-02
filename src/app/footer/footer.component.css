@@ -1,6 +1,6 @@
 .footerr {
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
@@ -15,9 +15,8 @@
 /* Items contacto*/
 .item__contact {
     width: 25%;
-    padding: 5px 0;
     text-align: center;
-    background: #f3f1f1f8;
+    background: rgba(140, 193, 193, 0.35);
 }
 
 /* Items contacto iconos*/
@@ -41,6 +40,7 @@
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 /* Contenedor enlaces FB Instagram Youtube*/
@@ -50,7 +50,7 @@
 
 /* Contenedor iconos redes*/
 .contenedor-icono {
-    margin: 10px 20px 0px 0px;
+    margin: 10px 10px 0px 0px;
 }
 
 /* Contenedor iconos hover*/
@@ -85,4 +85,7 @@
         border-bottom: 1px solid #cccccc92;
         width: 100%;
     }
+}
+h3{
+    padding-top: 11px;
 }
