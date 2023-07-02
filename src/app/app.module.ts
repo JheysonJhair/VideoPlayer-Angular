@@ -9,12 +9,16 @@ import { VgControlsModule } from '@videogular/ngx-videogular/controls';
 import { VgOverlayPlayModule } from '@videogular/ngx-videogular/overlay-play';
 import { VgBufferingModule } from '@videogular/ngx-videogular/buffering';
 import { VdoPlayerComponent } from './vdo-player/vdo-player.component';
+import { HeadComponent } from './head/head.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    VdoPlayerComponent
+    VdoPlayerComponent,
+    HeadComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

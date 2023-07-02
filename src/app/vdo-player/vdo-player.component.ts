@@ -7,17 +7,17 @@ import { Component, OnInit } from '@angular/core';
 export class VdoPlayerComponent implements OnInit {
   videoItems = [
       {
-        name: 'Video one',
+        name: "Canon in D (Pachelbel's Canon) - Cello & Piano",
         src: '../../assets/cannon.mp4',
         type: 'video/mp4'
       },
       {
-        name: 'Video two',
+        name: "Shingeki no Kyojin -『Guren no Yumiya』| OP 1 | ",
         src: '../../assets/Shingeki.mp4',
         type: 'video/mp4'
       },
       {
-        name: 'Video three',
+        name: "See Siang Wong - One Summer's Day",
         src: '../../assets/OneSummerDay.mp4',
         type: 'video/mp4'
       }
