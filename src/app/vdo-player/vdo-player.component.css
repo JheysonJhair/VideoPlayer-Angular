@@ -21,7 +21,7 @@
    margin-bottom: 1px;
 }
 li.selected {
-    background: rgb(210, 221, 217) !important;
+    background: rgb(210, 211, 221) !important;
 }
 .title{
   font-size: 18px;
@@ -47,4 +47,8 @@ li.selected {
   padding-top: 10px;
   font-size: 20px;
   color: rgb(94, 55, 234);
+}
+
+vg-scrub-bar-buffering-time{
+  background-color: rgba(94, 55, 234, 0.708);
 }

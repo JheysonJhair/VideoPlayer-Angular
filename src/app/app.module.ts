@@ -11,6 +11,7 @@ import { VgBufferingModule } from '@videogular/ngx-videogular/buffering';
 import { VdoPlayerComponent } from './vdo-player/vdo-player.component';
 import { HeadComponent } from './head/head.component';
 import { FooterComponent } from './footer/footer.component';
+import { AsideComponent } from './aside/aside.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     VdoPlayerComponent,
     HeadComponent,
-    FooterComponent
+    FooterComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
