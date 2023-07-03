@@ -1,27 +1,52 @@
-.container{
-  margin-top: 90px;
-  margin-bottom: 40px;
+.container {
+  margin: 90px 20px 40px 20px;
+  padding: 24px 20px 30px;
   background-color: #fff;
 }
+
 input{
-  width: 90%;
+  width: 88%;
   padding: 9px;
   border: 1px solid #ccc;
-
+  background-color: #fbfbfb;
 }
 .b{
   margin-bottom: 20px;
   padding: 5px;
 }
 i{
-  background-color: black;
-  color: #fff;
-  padding: 10px;
-  border-radius: 50%;
+  color: #000000;
+  padding: 9px;
+  font-size: 20px;
 }
 .te{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 0px;
-  padding: 20px;
+  padding-left: 10px ;
+  padding-right: 30px;
+  text-align: justify;
+}
+.b .ng{
+  font-weight:bolder;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+p{
+  font-size: 13px;
+  padding-left: 6px;
+}
+.btn-primary {
+  background-color: rgb(94, 55, 234);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 6px;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
 }
