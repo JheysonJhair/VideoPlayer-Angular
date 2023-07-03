@@ -1,5 +1,5 @@
 .contenedor-header {
-    background: #15272e;
+    background: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
     top: 0;
@@ -9,7 +9,7 @@
     position: fixed;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
   }
-  
+
   .contenedor-header header {
     max-width: 80%;
     margin: auto;
@@ -19,14 +19,14 @@
     padding: 15px 20px;
     height: 55px;
   }
-  
+
   .contenedor-header header .logo a {
     font-family: 'Righteous';
     font-size: 36px;
     color: #1CB698;
     text-decoration: none;
   }
-  
+
   /* Contenedor header*/
   header {
     width: 100%;
@@ -35,29 +35,29 @@
     background-position: center;
     background-size: cover;
   }
-  
+
   /* Logotipo*/
   .logo,
   .logo img {
     height: 44px;
   }
-  
+
   /* Logotipo:hover*/
   .logo,
   .logo img:hover {
     cursor: pointer;
   }
-  
+
   /* texto boton contratame*/
   .aa {
     font-size: 500px;
     text-align: center;
     text-decoration: none;
   }
-  
+
   /* Boton contratame*/
   .hireMe__button a {
-    background-color: #1b6153cd;
+    background-color: rgb(94, 55, 234);
     color: black;
     padding: .6rem .8rem;
     font-size: 16px;

@@ -22,6 +22,10 @@
       <video #media [vgMedia]="$any(media)" [src]="currentVideo.src" id="singleVideo" preload="auto" crossorigin>
       </video>
     </vg-player>
+    <div class="li">
+        <h3 class="title">Lista de reproducción</h3>
+        <i class="fa-solid fa-music"></i>
+    </div>
     <ul class="player-list">
       <li *ngFor="let vdo of videoItems; let $index = index" (click)="startPlaylistVdo(vdo, $index)"
         [class.selected]="vdo === currentVideo">

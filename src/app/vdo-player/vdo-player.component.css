@@ -1,5 +1,6 @@
 .contenedor{
     margin-top: 90px;
+    margin-bottom: 40px;
 }
 .video-player-wrapper {
     max-width: 1000px;
@@ -14,11 +15,36 @@
    list-style: none;
    padding: 15px 35px;
    display: block;
-   background: #cccc;
+   background:rgb(255, 255, 255);
    cursor: pointer;
    text-align: left;
    margin-bottom: 1px;
 }
 li.selected {
-    background: #03A9F4 !important;
+    background: rgb(210, 221, 217) !important;
+}
+.title{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: start;
+  padding-left: 2px;
+  color: rgb(94, 55, 234);
+}
+.title i{
+  color: black;
+}.li {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.fa-music {
+  float: left;
+  padding-top: 10px;
+  font-size: 20px;
+  color: rgb(94, 55, 234);
 }
